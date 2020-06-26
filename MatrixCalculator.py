@@ -14,12 +14,11 @@ class Matrix:
 
     @classmethod
     def create(cls):
-        # input matrix dimensions (rows then cols)
-        # input format is 'row col'
+        # input matrix dimensions with format 'row col' e.g  for a 3 x 3 matrix, input 3 3
         rows, cols = [int(ele) for ele in input('Enter rows and columns of matrix: ').split()]
 
         matrix = []
-        # input matrix row by row with a space between each element
+        # input actual matrix row by row with a space between each element
         print('Enter matrix row. Please leave a space between each element:')
         for i in range(rows):
             matrix.append([float(ele) for ele in input().split()])
