@@ -1,11 +1,5 @@
 
-''' TODO: Move all matrix functions inside the class
-    TODO: Make __init__ create rows and cols automatically in the matrix list
-    # rewrite matrix.print() so that it doesn't overwrite exisiting data
-    # implement __str__ and __repr__ to easily print via print(mx_output)
-    TODO: implement magic methods to override addition and multiplication (__iadd__, __add__, __mul__ etc)
-    TODO: implement memory and allow overwriting with new matrix as function
-    TODO: add in try and except statements to handle errors'''
+''' TODO: implement memory and allow overwriting with new matrix as function '''
 
 class Matrix:
 
